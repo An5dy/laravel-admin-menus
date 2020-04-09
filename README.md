@@ -15,11 +15,15 @@ $ composer require an5dy/laravel-admin-menus -vvv
 ### 在 laravel 中使用
 #### 导出 lravel-admin 左侧菜单，生成 config/menus.php 配置文件。
 ```
-php artisan admin:menus:export
+$ php artisan admin:menus:export
+// 生产环境
+$ php artisan admin:menus:export --force
 ```
 #### 读取 config/menus.php 配置文件，生成 laravel-admin 左侧菜单。
 ```
-php artisan admin:menus:import
+$ php artisan admin:menus:import
+// 生产环境
+$ php artisan admin:menus:import --force
 ```
 ## License
 
