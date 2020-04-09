@@ -25,7 +25,8 @@ class ExportMenusCommand extends Command
 
     protected $description = '导出 laravel-admin 菜单';
 
-    public function handle(){
+    public function handle()
+    {
         if (!$this->confirmToProceed()) {
             return 1;
         }
