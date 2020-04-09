@@ -1,0 +1,31 @@
+{
+    "name": "an5dy/laravel-admin-menus",
+    "description": "laravel-admin 左侧菜单栏扩展包",
+    "keywords": ["laravel-admin", "menus", "extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "an5dy",
+            "email": "846562014@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "An5dy\\LaravelAdminMenus\\": "./src/"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "An5dy\\LaravelAdminMenus\\MenusServiceProvider"
+            ]
+        }
+    }
+}
