@@ -2,6 +2,7 @@
 
 <p align="center"> laravel-admin 左侧菜单栏扩展包，基于 config/menus.php 配置文件生成左侧菜单。</p>
 
+![StyleCI build status](https://github.styleci.io/repos/254318217/shield) 
 
 ## 安装
 
